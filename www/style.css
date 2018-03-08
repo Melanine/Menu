@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'bluefish_demoregular';
+    src: url('fonts/bluefish_regular_demo-webfont.eot');
+    src: url('fonts/bluefish_regular_demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bluefish_regular_demo-webfont.woff2') format('woff2'),
+         url('fonts/bluefish_regular_demo-webfont.woff') format('woff'),
+         url('fonts/bluefish_regular_demo-webfont.ttf') format('truetype'),
+         url('fonts/bluefish_regular_demo-webfont.svg#bluefish_demoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'easy_novemberregular';
+    src: url('fonts/easy_november-webfont.eot');
+    src: url('fonts/easy_november-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/easy_november-webfont.woff2') format('woff2'),
+         url('fonts/easy_november-webfont.woff') format('woff'),
+         url('fonts/easy_november-webfont.ttf') format('truetype'),
+         url('fonts/easy_november-webfont.svg#easy_novemberregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sunrise_international_demoRg';
+    src: url('fonts/sunrise_international_demo-webfont.eot');
+    src: url('fonts/sunrise_international_demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sunrise_international_demo-webfont.woff2') format('woff2'),
+         url('fonts/sunrise_international_demo-webfont.woff') format('woff'),
+         url('fonts/sunrise_international_demo-webfont.ttf') format('truetype'),
+         url('fonts/sunrise_international_demo-webfont.svg#sunrise_international_demoRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#body
+{
+    text-align: center;
+    margin-top:5px;
+}
+
+.container
+{
+    text-align: center;
+    margin-bottom:30px;
+}
+
+#titre1
+{
+    font-family: 'easy_novemberregular';
+    font-size: 40px;
+}
+
+.titre
+{
+    display: inline;
+    padding : 0 10 0 10;
+    font-family: 'sunrise_international_demoRg';
+    font-size: 30px;
+}
+
+.resultat
+{
+    text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+    color:rgb(61, 69, 69);
+    font-family: 'bluefish_demoregular';
+    margin:0;
+    text-transform: uppercase;
+}
+
+option,select
+{
+    font-family: 'bluefish_demoregular';
+    text-transform: uppercase;
+}
+
+#saison
+{
+    margin-top:5px;
+    margin-bottom: 5px;
+}
